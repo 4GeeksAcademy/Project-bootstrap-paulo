@@ -1,0 +1,312 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>proyecto de bootstrap ig post</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i> Instagram </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"></a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+
+          <!--  MENU MODAL -->
+          <button type="button" class="btn btn-success me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Create a new post
+          </button>
+
+          <!-- Modal ME FALTA LA PARTE INTERNA-->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Caption:
+                </div>
+                <div class="modal-footer d-flex justify-content-between">
+                  <div>
+                    <button type="button" class="" data-bs-dismiss="modal"><i
+                        class="fa-solid fa-camera"></i></button>
+                    <button type="button" class=""><i class="fa-solid fa-location-dot"></i></button>
+                  </div>
+                  <div>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primar">Publish</button>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <!--  MENU Dropdown -->
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <i class="fa-solid fa-gear"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Accesibility</a></li>
+              <li><a class="dropdown-item" href="#">Privacy and data </a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Log out </a></li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- SWICTH -->
+  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <div class="mx-auto d-flex flex-row mt-3">
+      <li class="nav-item" role="presentation">
+
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+          type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i
+            class="fa-solid fa-grip"></i></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+          type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i
+            class="fa-solid fa-square"></i> </button>
+      </li>
+
+    </div>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+
+    <!-- PAGINA 1 -->
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+      tabindex="0">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4">
+            <img
+              src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+              class="w-100 m-0 " alt="">
+          </div>
+          <div class="col-4">
+            <img
+              src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+              class="w-100 " alt="">
+          </div>
+          <div class="col-4">
+            <img
+              src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+              class="w-100 " alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <img
+              src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+              class="w-100 m-0 " alt="">
+          </div>
+          <div class="col-4">
+            <img
+              src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+              class="w-100 " alt="">
+          </div>
+          <div class="col-4">
+            <img
+              src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+              class="w-100 " alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <img
+              src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+              class="w-100 m-0 " alt="">
+          </div>
+          <div class="col-4">
+            <img
+              src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+              class="w-100 " alt="">
+          </div>
+          <div class="col-4">
+            <img
+              src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+              class="w-100 " alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGINA 2 -->
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
+      <div class="card container mb-5" style="width: 40rem;">
+        <div class="d-flex justify-content-between">
+          <h3 class="card-title my-3 me-2">Mi ultimo viaje a Sicilia</h3>
+          <h5 class="my-3 me-2">1/9</h5>
+        </div>
+        <img
+          src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">255 likes</h5>
+          <p class="card-text">Mi ultima visita a la isla de Sicilia, en italia, en el talon del pais.</p>
+        </div>
+      </div>
+
+      <div class="card container mb-5" style="width: 40rem;">
+        <div class="d-flex justify-content-between">
+          <h3 class="card-title my-3 me-2">Mi ultimo viaje a Sicilia</h3>
+          <h5 class="my-3 me-2">2/9</h5>
+        </div>
+        <img
+          src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">255 likes</h5>
+          <p class="card-text">Mi ultima visita a la isla de Sicilia, en italia, en el talon del pais.</p>
+        </div>
+      </div>
+
+      <div class="card container mb-5" style="width: 40rem;">
+        <div class="d-flex justify-content-between">
+          <h3 class="card-title my-3 me-2">Mi ultimo viaje a Sicilia</h3>
+          <h5 class="my-3 me-2">3/9</h5>
+        </div>
+        <img
+          src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">255 likes</h5>
+          <p class="card-text">Mi ultima visita a la isla de Sicilia, en italia, en el talon del pais.</p>
+        </div>
+      </div>
+
+      <div class="card container mb-5" style="width: 40rem;">
+        <div class="d-flex justify-content-between">
+          <h3 class="card-title my-3 me-2">Mi ultimo viaje a Sicilia</h3>
+          <h5 class="my-3 me-2">4/9</h5>
+        </div>
+        <img
+          src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">255 likes</h5>
+          <p class="card-text">Mi ultima visita a la isla de Sicilia, en italia, en el talon del pais.</p>
+        </div>
+      </div>
+
+      <div class="card container mb-5" style="width: 40rem;">
+        <div class="d-flex justify-content-between">
+          <h3 class="card-title my-3 me-2">Mi ultimo viaje a Sicilia</h3>
+          <h5 class="my-3 me-2">5/9</h5>
+        </div>
+        <img
+          src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">255 likes</h5>
+          <p class="card-text">Mi ultima visita a la isla de Sicilia, en italia, en el talon del pais.</p>
+        </div>
+      </div>
+
+      <div class="card container mb-5" style="width: 40rem;">
+        <div class="d-flex justify-content-between">
+          <h3 class="card-title my-3 me-2">Mi ultimo viaje a Sicilia</h3>
+          <h5 class="my-3 me-2">6/9</h5>
+        </div>
+        <img
+          src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">255 likes</h5>
+          <p class="card-text">Mi ultima visita a la isla de Sicilia, en italia, en el talon del pais.</p>
+        </div>
+      </div>
+
+      <div class="card container mb-5" style="width: 40rem;">
+        <div class="d-flex justify-content-between">
+          <h3 class="card-title my-3 me-2">Mi ultimo viaje a Sicilia</h3>
+          <h5 class="my-3 me-2">7/9</h5>
+        </div>
+        <img
+          src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">255 likes</h5>
+          <p class="card-text">Mi ultima visita a la isla de Sicilia, en italia, en el talon del pais.</p>
+        </div>
+      </div>
+
+      <div class="card container mb-5" style="width: 40rem;">
+        <div class="d-flex justify-content-between">
+          <h3 class="card-title my-3 me-2">Mi ultimo viaje a Sicilia</h3>
+          <h5 class="my-3 me-2">8/9</h5>
+        </div>
+        <img
+          src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">255 likes</h5>
+          <p class="card-text">Mi ultima visita a la isla de Sicilia, en italia, en el talon del pais.</p>
+        </div>
+      </div>
+
+      <div class="card container mb-5" style="width: 40rem;">
+        <div class="d-flex justify-content-between">
+          <h3 class="card-title my-3 me-2">Mi ultimo viaje a Sicilia</h3>
+          <h5 class="my-3 me-2">9/9</h5>
+        </div>
+        <img
+          src="https://www.contiki.com/media/zijj2kui/3320eurs2022-1.jpg?center=0.5608898281922766%2C0.4902910058646482&format=webp&mode=crop&width=1200&height=1200&quality=80"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">255 likes</h5>
+          <p class="card-text">Mi ultima visita a la isla de Sicilia, en italia, en el talon del pais.</p>
+        </div>
+      </div>
+
+
+      <!-- final -->
+
+      <script src="https://kit.fontawesome.com/3a8d5dd94a.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+        integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
